@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>        
+        <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div>
             <a href="">
-            <img src="images.png" alt="">
+            <img src="logoprincipal.png" alt="">
             </a>
         </div>
         <nav>
@@ -24,10 +28,15 @@
         </div>
     </header>
     <div class="container-carrosel">
-        <img src="images.png" alt="">
-        <button class="prev"><img src="images.png" alt=""></button>
-        <button class="next"><img src="images.png" alt=""></button>
+        <div class="content-carrosel">
+        <img src="carrosel1-img1.jpg" alt="" class="carousel-image active">
+        <img src="carrosel1-img2.jpg" alt="" class="carousel-image">
+        <img src="carrosel1-img3.jpg" alt="" class="carousel-image">
+        </div>
+        <button class="prev"><img src="setabrancadireita.png" alt="Previous"></button>
+        <button class="next"><img src="setabrancadireita.png" alt="Next"></button>
     </div>
+    
     <div class="container-home">
         <div class="container-text">
             <div class="org-container">
@@ -35,7 +44,7 @@
             <li>
                 Olá somos a 
             </li>
-            <li>
+            <li style="color: #A2BEDC">
                 CodedMind
             </li>
         </ul>
@@ -54,7 +63,7 @@
 
         <div class="container-logo">
             <div>
-                <img src="images.png" alt="">
+                <img src="logoprincipal.png" alt="">
             </div>
         </div>
     </div>
@@ -76,7 +85,7 @@
             <div class="cards-text">
                 <div class="text-cards">
                     <div class="card-img">
-                    <img src="images.png" alt="">
+                    <img src="Missão.png" alt="">
                     </div>
                     <div>
                     <h1>Missão</h1>
@@ -91,30 +100,30 @@
             <div class="cards-text">
                 <div class="text-cards">
                     <div class="card-img">
-                    <img src="images.png" alt="">
+                    <img src="Visão.png" alt="">
                     </div>
                     <div>
-                    <h1>Missão</h1>
+                    <h1>Visão</h1>
                     </div>
                 </div>
                 <div class="text-card">
                     <h3>
-                        a praticidade e segurança para os nossos clientes, solucionando problemas e desafios.
+                        somos uma empresa estável, competente e determinada para sempre entregarmos um bom serviço.
                     </h3>
                 </div>
             </div>
             <div class="cards-text">
                 <div class="text-cards">
                     <div class="card-img">
-                    <img src="images.png" alt="">
+                    <img src="Valores.png" alt="">
                     </div>
                     <div>
-                    <h1>Missão</h1>
+                    <h1>Valores</h1>
                     </div>
                 </div>
                 <div class="text-card">
                     <h3>
-                        a praticidade e segurança para os nossos clientes, solucionando problemas e desafios.
+                    praticidade, objetividade, respeito, atitude crítica, responsabilidade,  respeito e paixão.
                     </h3>
                 </div>
             </div>
@@ -129,10 +138,10 @@
         <div class="port-carrosel">
             <div class="carrosel-port">
                 <button>
-                    <img src="images.png" alt="">
+                    <img src="seta_preta-removebg-preview.png" alt="">
                 </button>
                 <div>
-                    <img src="images.png" alt="">
+                    <img src="carrosel1-img1.jpg" alt="">
                 </div>
             </div>
             <div class="port-org">
@@ -140,11 +149,65 @@
             </div>
             <div class="carrosel-port">
                 <div>
-                    <img src="images.png" alt="">
+                    <img src="carrosel1-img2.jpg" alt="">
                 </div>
-                <button>
-                    <img src="images.png" alt="">
+                <button class="carrosel-seta">
+                    <img src="seta_preta-removebg-preview.png" alt="">
                 </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-servicos">
+        <div class="servicos-tittle">
+            <h1>Descubra Nossos Serviços</h1>
+        </div>
+        <div class="container-servico">
+            <div class="servico-content">
+                <div class="servico-image">
+                    <img src="" alt="">
+                </div>
+                <div class="servico-tittle">
+                    <h1>Aplicativos Movéis</h1>
+                </div>
+                <div class="servico-text">
+                    <h1>Criação de aplicativos para plataformas iOS e Android, incluindo design e funcionalidades específicas para cada dispositivo.</h1>
+                </div>
+            </div>
+            <div class="servico-content">
+                <div class="servico-image">
+                    <img src="" alt="">
+                </div>
+                <div class="servico-tittle">
+                    <h1>Aplicativos Movéis</h1>
+                </div>
+                <div class="servico-text">
+                    <h1>Criação de aplicativos para plataformas iOS e Android, incluindo design e funcionalidades específicas para cada dispositivo.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-servico">
+            <div class="servico-content">
+                <div class="servico-image">
+                    <img src="" alt="">
+                </div>
+                <div class="servico-tittle">
+                    <h1>Aplicativos Movéis</h1>
+                </div>
+                <div class="servico-text">
+                    <h1>Criação de aplicativos para plataformas iOS e Android, incluindo design e funcionalidades específicas para cada dispositivo.</h1>
+                </div>
+            </div>
+            <div class="servico-content">
+                <div class="servico-image">
+                    <img src="" alt="">
+                </div>
+                <div class="servico-tittle">
+                    <h1>Aplicativos Movéis</h1>
+                </div>
+                <div class="servico-text">
+                    <h1>Criação de aplicativos para plataformas iOS e Android, incluindo design e funcionalidades específicas para cada dispositivo.</h1>
+                </div>
             </div>
         </div>
     </div>
